@@ -28,7 +28,7 @@
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" id="searchtext" placeholder="Search"
                     aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
             </form>
         </div>
     </nav>
@@ -38,17 +38,26 @@
         <!--margin 3 px towards y axis  -->
 
         <h1>Welcome to Magic Notes</h1>
+        <!-- <h5>Example heading <span class=>bheh</span></h5> -->
+        <div>
+            <h5>Important &nbsp;<span style="background-color:#FAEBD7; color: FAEBD7;">Thisistest</span></h5>
+        </div>
+        <div>
+            <h5>By Default &nbsp;<span style="width: 2rem;background-color:#343A40;color: #343A40;">Thisistest</span></h5>
+        </div>
+
+        
         <!--USER INPUT START -->
         <div class="card">
 
             <div class="card-body">
 
                 <div class="form-group">
-                    
+
                     <h5 class="card-title">Add Title</h5>
                     <input type="text" class="form-control" id="addtitle" aria-describedby="title">
-                   
-                  </div>
+
+                </div>
 
                 <h5 class="card-title">Add a Note</h5>
                 <div class="form-group">
@@ -67,29 +76,25 @@
         <div id="notes" class="row container-fluid">
 
 
+            <!-- <div class=" noteCard my-2 mx-2 card change" id="noteCard${index}" style="width: 18rem; border:2px solid rgb(77, 73, 73) ;  border-radius: 10px ; ">
+                <div class="card-body">
+                    <h5 class="card-title"  style="color:rgb(221, 137, 137)"> ${element.title} </h5>
+                    <p class="card-text" id ="cardtext${index}" >${element.text} </p>
+                    <button id=${index} onclick="deleteNode(this.id)" class="btn btn-primary">Delete Note</button>
+                <button id="imp${index}" onclick="markImportant$({index})" class="btn btn-primary my-2">Mark Important</button>
+                <button id=${index} onclick="unmarkImportant(this.id)" class="btn btn-primary">Mark Not Important </button>
 
 
+                
+                </div>
+                </div> -->
+                </div>
 
-
-        </div>
         <!--NOTES END -->
 
 
 
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     <!-- JS, Popper.js, and jQuery -->
